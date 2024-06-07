@@ -146,11 +146,7 @@ title: What I do
   <label>Fastify</label>
 </div>
 
-<div class="flex justify-center mt-10">
-  <div class="p-4 bg-white inline-block">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 29 29" class="size-32"><path fill="#ffffff" d="M0,0 h29v29H0z" shapeRendering="crispEdges"></path><path fill="#000000" d="M0 0h7v1H0zM8 0h1v1H8zM11 0h1v1H11zM13 0h1v1H13zM17 0h2v1H17zM20 0h1v1H20zM22,0 h7v1H22zM0 1h1v1H0zM6 1h1v1H6zM9 1h1v1H9zM11 1h3v1H11zM15 1h3v1H15zM19 1h1v1H19zM22 1h1v1H22zM28,1 h1v1H28zM0 2h1v1H0zM2 2h3v1H2zM6 2h1v1H6zM9 2h2v1H9zM14 2h2v1H14zM18 2h3v1H18zM22 2h1v1H22zM24 2h3v1H24zM28,2 h1v1H28zM0 3h1v1H0zM2 3h3v1H2zM6 3h1v1H6zM9 3h1v1H9zM12 3h1v1H12zM15 3h5v1H15zM22 3h1v1H22zM24 3h3v1H24zM28,3 h1v1H28zM0 4h1v1H0zM2 4h3v1H2zM6 4h1v1H6zM8 4h1v1H8zM10 4h1v1H10zM13 4h3v1H13zM19 4h1v1H19zM22 4h1v1H22zM24 4h3v1H24zM28,4 h1v1H28zM0 5h1v1H0zM6 5h1v1H6zM8 5h3v1H8zM13 5h3v1H13zM18 5h1v1H18zM20 5h1v1H20zM22 5h1v1H22zM28,5 h1v1H28zM0 6h7v1H0zM8 6h1v1H8zM10 6h1v1H10zM12 6h1v1H12zM14 6h1v1H14zM16 6h1v1H16zM18 6h1v1H18zM20 6h1v1H20zM22,6 h7v1H22zM9 7h5v1H9zM15 7h2v1H15zM19 7h2v1H19zM1 8h7v1H1zM10 8h2v1H10zM13 8h4v1H13zM18 8h2v1H18zM23 8h2v1H23zM28,8 h1v1H28zM0 9h2v1H0zM4 9h2v1H4zM7 9h1v1H7zM10 9h6v1H10zM22 9h5v1H22zM28,9 h1v1H28zM1 10h2v1H1zM4 10h1v1H4zM6 10h1v1H6zM8 10h2v1H8zM20 10h4v1H20zM25 10h2v1H25zM0 11h2v1H0zM3 11h2v1H3zM7 11h3v1H7zM21 11h3v1H21zM25 11h1v1H25zM27 11h1v1H27zM0 12h2v1H0zM4 12h1v1H4zM6 12h2v1H6zM21 12h1v1H21zM23 12h1v1H23zM26,12 h3v1H26zM1 13h4v1H1zM7 13h1v1H7zM19 13h4v1H19zM24 13h2v1H24zM27,13 h2v1H27zM2 14h2v1H2zM5 14h2v1H5zM8 14h2v1H8zM20 14h2v1H20zM23 14h1v1H23zM0 15h1v1H0zM2 15h1v1H2zM4 15h2v1H4zM8 15h2v1H8zM19 15h2v1H19zM24 15h2v1H24zM28,15 h1v1H28zM0 16h1v1H0zM3 16h1v1H3zM5 16h2v1H5zM9 16h1v1H9zM20 16h1v1H20zM23 16h1v1H23zM25 16h3v1H25zM0 17h1v1H0zM9 17h1v1H9zM19 17h1v1H19zM22 17h1v1H22zM24,17 h5v1H24zM0 18h1v1H0zM2 18h1v1H2zM4 18h3v1H4zM8 18h1v1H8zM20 18h1v1H20zM22 18h1v1H22zM24 18h2v1H24zM0 19h1v1H0zM2 19h4v1H2zM7 19h3v1H7zM11 19h2v1H11zM15 19h1v1H15zM20 19h1v1H20zM22 19h1v1H22zM27,19 h2v1H27zM0 20h1v1H0zM3 20h2v1H3zM6 20h1v1H6zM8 20h8v1H8zM17 20h1v1H17zM19 20h6v1H19zM26,20 h3v1H26zM8 21h1v1H8zM10 21h2v1H10zM13 21h1v1H13zM18 21h1v1H18zM20 21h1v1H20zM24 21h2v1H24zM27,21 h2v1H27zM0 22h7v1H0zM8 22h1v1H8zM11 22h2v1H11zM15 22h2v1H15zM18 22h3v1H18zM22 22h1v1H22zM24 22h1v1H24zM0 23h1v1H0zM6 23h1v1H6zM8 23h2v1H8zM12 23h3v1H12zM16 23h1v1H16zM19 23h2v1H19zM24 23h2v1H24zM27,23 h2v1H27zM0 24h1v1H0zM2 24h3v1H2zM6 24h1v1H6zM8 24h3v1H8zM12 24h1v1H12zM14 24h2v1H14zM18 24h1v1H18zM20 24h7v1H20zM28,24 h1v1H28zM0 25h1v1H0zM2 25h3v1H2zM6 25h1v1H6zM8 25h1v1H8zM10 25h8v1H10zM19 25h3v1H19zM23 25h1v1H23zM25 25h2v1H25zM0 26h1v1H0zM2 26h3v1H2zM6 26h1v1H6zM8 26h1v1H8zM17 26h1v1H17zM19 26h9v1H19zM0 27h1v1H0zM6 27h1v1H6zM8 27h1v1H8zM12 27h2v1H12zM16 27h1v1H16zM18 27h4v1H18zM24 27h2v1H24zM27 27h1v1H27zM0 28h7v1H0zM13 28h1v1H13zM17 28h1v1H17zM21 28h2v1H21zM24 28h3v1H24z" shapeRendering="crispEdges"></path><image href="/img/x.svg" height="7.25" width="7.25" x="10.875" y="10.875" preserveAspectRatio="none"/></svg>
-  </div>
-</div>
+<footer class="absolute bottom-4 right-4 text-xl text-semibold text-zinc-500">@fortysevenfx</footer>
 
 <!--
 I'm a freelance web developer since 2018.
@@ -189,6 +185,8 @@ title: Native code
 
 <h1 class="text-9xl text-center">Native code</h1>
 
+<footer class="absolute bottom-4 right-4 text-xl text-semibold text-zinc-500">@fortysevenfx</footer>
+
 <!-- Native code has drawbacks -->
 
 ---
@@ -202,6 +200,8 @@ title: Drawbacks of native
 - <span class="text-zinc-500">3.</span> 😓
 
 </div>
+
+<footer class="absolute bottom-4 right-4 text-xl text-semibold text-zinc-500">@fortysevenfx</footer>
 
 <!--
 Gatekeeper stores
@@ -222,6 +222,8 @@ title: In 2016
   <span>React 16<br/><span class="text-zinc-500 text-base">(with Class Components)</span></span>
 </div>
 
+<footer class="absolute bottom-4 right-4 text-xl text-semibold text-zinc-500">@fortysevenfx</footer>
+
 <!--
 I started using web technologies 8 years ago,
 <br/>
@@ -241,6 +243,8 @@ title: Beauty of the web
 - <span class="text-zinc-500">3.</span> 😍
 
 </div>
+
+<footer class="absolute bottom-4 right-4 text-xl text-semibold text-zinc-500">@fortysevenfx</footer>
 
 <!--
 Deploy
@@ -265,6 +269,8 @@ title: The URL
   <span class="text-orange-600 dark:text-orange-400">#fragment</span>
 </p>
 
+<footer class="absolute bottom-4 right-4 text-xl text-semibold text-zinc-500">@fortysevenfx</footer>
+
 <!--
 -> We can..
 -->
@@ -281,6 +287,8 @@ title: What we can do with URLs
 
 </div>
 
+<footer class="absolute bottom-4 right-4 text-xl text-semibold text-zinc-500">@fortysevenfx</footer>
+
 ---
 title: Deep linking
 ---
@@ -288,6 +296,8 @@ title: Deep linking
 <h1 class="text-9xl text-center">Deep Linking</h1>
 
 <p class="text-6xl text-center mt-8 -mb-8 font-semibold" v-click>in web apps?</p>
+
+<footer class="absolute bottom-4 right-4 text-xl text-semibold text-zinc-500">@fortysevenfx</footer>
 
 <!--
 Native has deep linking
@@ -309,6 +319,8 @@ title: Pathname
   <span class="text-zinc-500">#fragment</span>
 </p>
 
+<footer class="absolute bottom-4 right-4 text-xl text-semibold text-zinc-500">@fortysevenfx</footer>
+
 <!--
 Content, what page we are on
 -->
@@ -328,6 +340,8 @@ title: Routing in frameworks
   <p class="font-mono text-3xl font-semibold">./app/foo/bar/page.tsx</p>
 </div>
 
+<footer class="absolute bottom-4 right-4 text-xl text-semibold text-zinc-500">@fortysevenfx</footer>
+
 <!--
 Next.js has two ways of mapping a file name to the URL pathname
 -->
@@ -343,6 +357,8 @@ title: Fragment
   <span class="text-zinc-500">?query=string</span>
   <span class="text-orange-600 dark:text-orange-400 font-semibold">#fragment</span>
 </p>
+
+<footer class="absolute bottom-4 right-4 text-xl text-semibold text-zinc-500">@fortysevenfx</footer>
 
 <!--
 Location
@@ -367,6 +383,8 @@ title: ID scrolling
 </ul>
 ```
 
+<footer class="absolute bottom-4 right-4 text-xl text-semibold text-zinc-500">@fortysevenfx</footer>
+
 <style>
 pre, code {
   font-size: 2rem;
@@ -389,6 +407,8 @@ title: The Query string
 <p class="text-center text-5xl mt-16 -mb-16 text-black dark:text-white" v-click>
 query string, search params, query params?
 </p>
+
+<footer class="absolute bottom-4 right-4 text-xl text-semibold text-zinc-500">@fortysevenfx</footer>
 
 <!--
 Key value store
@@ -521,6 +541,8 @@ title: Users
 <img src="/img/users-dark.png" alt="Users" class="hidden dark:block"/>
 </div>
 
+<footer class="absolute bottom-4 right-4 text-xl text-semibold text-zinc-500">@fortysevenfx</footer>
+
 <!--
 It got some attention
 
@@ -558,6 +580,8 @@ title: nuqs
   <span>s</span>
 </h1>
 
+<footer class="absolute bottom-4 right-4 text-xl text-semibold text-zinc-500">@fortysevenfx</footer>
+
 <!--
 Renamed it to nuqs
 
@@ -577,6 +601,8 @@ title: My goals for nuqs
   <li>Server & client</li>
 </ul>
 
+<footer class="absolute bottom-4 right-4 text-xl text-semibold text-zinc-500">@fortysevenfx</footer>
+
 <!--
 Most modern versions of Next.js
 
@@ -591,11 +617,15 @@ title: RSC
 
 <h1 class="text-7xl text-center">React Server Components</h1>
 
+<footer class="absolute bottom-4 right-4 text-xl text-semibold text-zinc-500">@fortysevenfx</footer>
+
 ---
 title: Server-first
 ---
 
 <h1 class="text-9xl text-center">Server-first</h1>
+
+<footer class="absolute bottom-4 right-4 text-xl text-semibold text-zinc-500">@fortysevenfx</footer>
 
 <!--
 Go through the server for every event
@@ -608,6 +638,8 @@ title: Shallow routing
 ---
 
 <h1 class="text-9xl text-center">Shallow routing</h1>
+
+<footer class="absolute bottom-4 right-4 text-xl text-semibold text-zinc-500">@fortysevenfx</footer>
 
 <!--
 Updating the URL without calling the server
@@ -628,6 +660,8 @@ useQueryState('q', { shallow: true })
 useQueryState('q', { shallow: false })
 ```
 
+<footer class="absolute bottom-4 right-4 text-xl text-semibold text-zinc-500">@fortysevenfx</footer>
+
 <style key="12">
 pre, code {
   font-size: 2rem;
@@ -644,6 +678,8 @@ title: History API
 
 <h1 class="text-9xl text-center">History API</h1>
 
+<footer class="absolute bottom-4 right-4 text-xl text-semibold text-zinc-500">@fortysevenfx</footer>
+
 ---
 title: Push/replace state
 ---
@@ -652,6 +688,8 @@ title: Push/replace state
 history.pushState(state, '', url)
 history.replaceState(state, '', url)
 ```
+
+<footer class="absolute bottom-4 right-4 text-xl text-semibold text-zinc-500">@fortysevenfx</footer>
 
 <style key="11">
 pre, code {
@@ -670,6 +708,8 @@ title: Rate limits
 ---
 
 <h1 class="text-9xl text-center">Rate limits</h1>
+
+<footer class="absolute bottom-4 right-4 text-xl text-semibold text-zinc-500">@fortysevenfx</footer>
 
 <!--
 Define MDN
@@ -697,12 +737,15 @@ title: Browsers
   <span class="text-amber-600 dark:text-amber-400">120ms 😱</span>
 </div>
 
+<footer class="absolute bottom-4 right-4 text-xl text-semibold text-zinc-500">@fortysevenfx</footer>
 
 ---
 title: Throttling
 ---
 
 <h1 class="text-9xl text-center">Throttling</h1>
+
+<footer class="absolute bottom-4 right-4 text-xl text-semibold text-zinc-500">@fortysevenfx</footer>
 
 ---
 title: How throttling works
@@ -717,12 +760,16 @@ title: How throttling works
   </template>
 </LightOrDark>
 
+<footer class="absolute bottom-4 right-4 text-xl text-semibold text-zinc-500">@fortysevenfx</footer>
+
 
 ---
 title: Writing
 ---
 
 <h1 class="text-9xl text-center">State &nbsp;→&nbsp; URL</h1>
+
+<footer class="absolute bottom-4 right-4 text-xl text-semibold text-zinc-500">@fortysevenfx</footer>
 
 
 ---
@@ -731,12 +778,16 @@ title: Reading
 
 <h1 class="text-9xl text-center">URL &nbsp;→&nbsp; State</h1>
 
+<footer class="absolute bottom-4 right-4 text-xl text-semibold text-zinc-500">@fortysevenfx</footer>
+
 
 ---
 title: Parsing
 ---
 
 <h1 class="text-9xl text-center">Parsing</h1>
+
+<footer class="absolute bottom-4 right-4 text-xl text-semibold text-zinc-500">@fortysevenfx</footer>
 
 ---
 
@@ -755,6 +806,8 @@ createParser({
   serialize() { ... }
 })
 ```
+
+<footer class="absolute bottom-4 right-4 text-xl text-semibold text-zinc-500">@fortysevenfx</footer>
 
 <style>
 pre, code {
@@ -775,11 +828,15 @@ title: Reasons for URL changes
 <li><code>nuqs</code> updates</li>
 </ul>
 
+<footer class="absolute bottom-4 right-4 text-xl text-semibold text-zinc-500">@fortysevenfx</footer>
+
 ---
 title: useSearchParams
 ---
 
 <h1 class="text-7xl text-center">useSearchParams()</h1>
+
+<footer class="absolute bottom-4 right-4 text-xl text-semibold text-zinc-500">@fortysevenfx</footer>
 
 ---
 title: useSearchParams not reactive in older Next
@@ -787,17 +844,23 @@ title: useSearchParams not reactive in older Next
 
 <h1 class="text-8xl text-center"><span class="text-zinc-500 font-medium">(was)</span> not reactive 😭</h1>
 
+<footer class="absolute bottom-4 right-4 text-xl text-semibold text-zinc-500">@fortysevenfx</footer>
+
 ---
 title: Patching globals
 ---
 
 <h1 class="text-8xl text-center">Patching history 😱</h1>
 
+<footer class="absolute bottom-4 right-4 text-xl text-semibold text-zinc-500">@fortysevenfx</footer>
+
 ---
 
 ```tsx
 history.pushState(state, '', url)
 ```
+
+<footer class="absolute bottom-4 right-4 text-xl text-semibold text-zinc-500">@fortysevenfx</footer>
 
 <style>
 pre, code {
@@ -820,6 +883,8 @@ patched_pushState(state, unused, url) {
 }
 ```
 
+<footer class="absolute bottom-4 right-4 text-xl text-semibold text-zinc-500">@fortysevenfx</footer>
+
 <style>
 pre, code {
   font-size: 2rem;
@@ -832,6 +897,8 @@ title: But why?
 
 <h1 class="text-8xl text-center">But why? 🤔</h1>
 
+<footer class="absolute bottom-4 right-4 text-xl text-semibold text-zinc-500">@fortysevenfx</footer>
+
 ---
 title: Parsers can be expensive
 ---
@@ -842,12 +909,15 @@ title: Parsers can be expensive
 <li>We already have the JS values!</li>
 </ul>
 
+<footer class="absolute bottom-4 right-4 text-xl text-semibold text-zinc-500">@fortysevenfx</footer>
 
 ---
 title: Sync
 ---
 
 <h1 class="text-9xl text-center leading-tight">Syncing via<br/>Event Emitter</h1>
+
+<footer class="absolute bottom-4 right-4 text-xl text-semibold text-zinc-500">@fortysevenfx</footer>
 
 ---
 title: Sync from URL
@@ -856,6 +926,7 @@ title: Sync from URL
 <img src="/img/sync-light.png" class="block dark:hidden"/>
 <img src="/img/sync-dark.png" class="hidden dark:block"/>
 
+<footer class="absolute bottom-4 right-4 text-xl text-semibold text-zinc-500">@fortysevenfx</footer>
 
 ---
 title: Bug on canary
@@ -865,6 +936,8 @@ title: Bug on canary
 
 <blockquote class="italic text-6xl">"I have a bug with Next.js <strong>canary</strong>"</blockquote>
 
+<footer class="absolute bottom-4 right-4 text-xl text-semibold text-zinc-500">@fortysevenfx</footer>
+
 ---
 title: MIT license
 ---
@@ -873,6 +946,8 @@ title: MIT license
 THE SOFTWARE IS PROVIDED "AS IS",
 WITHOUT WARRANTY OF ANY KIND
 ```
+
+<footer class="absolute bottom-4 right-4 text-xl text-semibold text-zinc-500">@fortysevenfx</footer>
 
 <style>
 pre, code {
@@ -892,6 +967,8 @@ title: What I like
 
 </div>
 
+<footer class="absolute bottom-4 right-4 text-xl text-semibold text-zinc-500">@fortysevenfx</footer>
+
 ---
 title: Subscribe to Next.js releases
 ---
@@ -904,6 +981,7 @@ title: Subscribe to Next.js releases
     <img src="/img/sub-release-dark.png"/>
   </template>
 </LightOrDark>
+
 
 ---
 title: Too many releases
@@ -923,6 +1001,8 @@ title: What are our options?
 ---
 
 <h1 class="text-8xl text-center leading-tight">What are<br/>our options?</h1>
+
+<footer class="absolute bottom-4 right-4 text-xl text-semibold text-zinc-500">@fortysevenfx</footer>
 
 ---
 title: GitHub API
@@ -954,6 +1034,8 @@ title: GitHub API
 ]
 ```
 
+<footer class="absolute bottom-4 right-4 text-xl text-semibold text-zinc-500">@fortysevenfx</footer>
+
 <!-- <style key="sqdqqdzddqzm">
 pre,code {
   font-size: 0.8rem;
@@ -966,11 +1048,15 @@ title: Cron
 
 <h1 class="text-8xl text-center flex items-center gap-2"><img src="/img/raspberry-pi.svg" class="h-32 -mt-6 inline-block"/> Cron &nbsp;→&nbsp; CI <img src="/img/gha.svg" class="h-32 inline-block ml-4"/></h1>
 
+<footer class="absolute bottom-4 right-4 text-xl text-semibold text-zinc-500">@fortysevenfx</footer>
+
 ---
 title: Testing
 ---
 
 <h1 class="text-9xl text-center">🧪&nbsp; Testing</h1>
+
+<footer class="absolute bottom-4 right-4 text-xl text-semibold text-zinc-500">@fortysevenfx</footer>
 
 ---
 title: Good tests are the only way to stay sane
@@ -978,11 +1064,15 @@ title: Good tests are the only way to stay sane
 
 <blockquote class="text-8xl text-center italic font-bold text-black dark:text-white leading-tight"><span class="text-zinc-500">"</span>Good tests are<br/>the only way<br/>to stay sane<span class="text-zinc-500">"</span></blockquote>
 
+<footer class="absolute bottom-4 right-4 text-xl text-semibold text-zinc-500">@fortysevenfx</footer>
+
 ---
 title: Behaviour coverage
 ---
 
 <h1 class="text-9xl text-center"><strike class="text-zinc-500 font-medium">code</strike> behaviour coverage</h1>
+
+<footer class="absolute bottom-4 right-4 text-xl text-semibold text-zinc-500">@fortysevenfx</footer>
 
 ---
 title: Next.js knobs
@@ -996,6 +1086,8 @@ title: Next.js knobs
 - Shallow routing <span class="text-zinc-500 italic">(experimental, then GA)</span>
 
 </div>
+
+<footer class="absolute bottom-4 right-4 text-xl text-semibold text-zinc-500">@fortysevenfx</footer>
 
 ---
 title: Mocking won't help
@@ -1022,6 +1114,8 @@ title: Golden rule of testing
 
 <h1 class="text-9xl text-center leading-tight">Golden rule<br/>of testing</h1>
 
+<footer class="absolute bottom-4 right-4 text-xl text-semibold text-zinc-500">@fortysevenfx</footer>
+
 ---
 
 <blockquote class="p-12 text-6xl text-center italic font-medium text-black dark:text-white leading-tight"><span class="text-zinc-500">"</span>A test must fail if, and only if, the <span class="font-extrabold">intention</span> behind the system is not met.<span class="text-zinc-500">"</span></blockquote>
@@ -1034,11 +1128,15 @@ title: Depending on internals
 
 <h1 class="text-9xl text-center leading-tight">Depending on internals</h1>
 
+<footer class="absolute bottom-4 right-4 text-xl text-semibold text-zinc-500">@fortysevenfx</footer>
+
 ---
 title: Beyoncé rule of software
 ---
 
 <h1 class="text-9xl text-center leading-tight">Beyoncé rule<br/>of software</h1>
+
+<footer class="absolute bottom-4 right-4 text-xl text-semibold text-zinc-500">@fortysevenfx</footer>
 
 ---
 title: If you like it then you shoulda put a test on it
@@ -1069,6 +1167,8 @@ End-to-end testing
   <img src="/img/cypress-dark.svg" class="h-32 hidden dark:block mx-auto mt-8"/>
 </h1>
 
+<footer class="absolute bottom-4 right-4 text-xl text-semibold text-zinc-500">@fortysevenfx</footer>
+
 <!--
 This helped me found some issues in the app router core
 
@@ -1084,6 +1184,8 @@ title: App router Redux
   <span class="text-8xl">❤️</span>
   <img src="/img/redux.svg" class="h-48 block"/>
 </h1>
+
+<footer class="absolute bottom-4 right-4 text-xl text-semibold text-zinc-500">@fortysevenfx</footer>
 
 <!--
 Redux is still a valid choice for library code
@@ -1109,7 +1211,9 @@ layout: two-cols
 
 <h1 class="text-7xl text-center leading-tight">Testing<br/>every<br/>supported<br/>version</h1>
 
-<p class="text-center text-zinc-500 text-4xl font-semibold mt-20">With variants</p>
+<p class="text-center text-zinc-500 text-4xl font-semibold mt-8">With variants</p>
+
+<footer class="absolute bottom-4 right-4 text-xl text-semibold text-zinc-500">@fortysevenfx</footer>
 
 
 ---
@@ -1117,6 +1221,8 @@ title: Thanks Turborepo
 ---
 
 <svg class="h-48 mr-12" fill="none" viewBox="0 0 120 28" xmlns="http://www.w3.org/2000/svg"><title>Turborepo</title><defs><linearGradient gradientUnits="userSpaceOnUse" id="logo-ring-gradient" x1="15.0234" x2="3.64419" y1="4.00556" y2="15.3847"><stop stop-color="#0096FF"></stop><stop offset="1" stop-color="#FF1E56"></stop></linearGradient><linearGradient id="gradient"><stop offset="0%" stop-color="#000000"></stop><stop offset="25%" stop-color="#ffffff"></stop><stop offset="85%" stop-color="#ffffff"></stop><stop offset="100%" stop-color="#000000"></stop></linearGradient><mask id="logo-mask"><rect fill="url(#gradient)" height="26" transform="translate(-8,0)" width="46" x="0" y="0"></rect></mask></defs><g mask="url(#logo-mask)" transform="translate(8,0)"><g class="relative z-0" opacity="1" style="transform: none; transform-origin: 13.9488px 13.9398px 0px;" transform-origin="13.948790550231934px 13.939799308776855px"><path class="fill-black dark:fill-white" d="M13.9396 6.42181C9.79423 6.42181 6.42163 9.79441 6.42163 13.9398C6.42163 18.0852 9.79423 21.4578 13.9396 21.4578C18.085 21.4578 21.4576 18.0852 21.4576 13.9398C21.4576 9.79441 18.085 6.42181 13.9396 6.42181ZM13.9396 17.8304C11.7906 17.8304 10.049 16.0888 10.049 13.9398C10.049 11.7908 11.7906 10.0492 13.9396 10.0492C16.0886 10.0492 17.8302 11.7908 17.8302 13.9398C17.8302 16.0888 16.0886 17.8304 13.9396 17.8304Z"></path><path clip-rule="evenodd" d="M14.5697 5.187V2.38C20.6709 2.7062 25.5177 7.7574 25.5177 13.9398C25.5177 20.1222 20.6709 25.172 14.5697 25.4996V22.6926C19.1169 22.3678 22.7177 18.5682 22.7177 13.9398C22.7177 9.3114 19.1169 5.5118 14.5697 5.187ZM7.30928 19.6798C6.10388 18.2882 5.32688 16.5158 5.18828 14.5698H2.37988C2.52548 17.2928 3.61468 19.7638 5.32128 21.6664L7.30788 19.6798H7.30928ZM13.3097 25.4996V22.6926C11.3623 22.554 9.5899 21.7784 8.1983 20.5716L6.2117 22.5582C8.1157 24.2662 10.5867 25.354 13.3083 25.4996H13.3097Z" fill="url(#logo-ring-gradient)" fill-rule="evenodd"></path></g></g><g class="relative z-10 header-logo_desktopLogo__zIjld" transform="translate(8,0)"><path class="fill-black dark:fill-white" d="M48.2623 11.2944V8.24418H33.5623V11.2944H39.1115V21.4374H42.713V11.2944H48.2623Z"></path><path class="fill-black dark:fill-white" d="M56.5679 21.6396C61.0882 21.6396 63.5688 19.3427 63.5688 15.5574V8.24418H59.9673V15.2083C59.9673 17.3214 58.8648 18.5158 56.5679 18.5158C54.271 18.5158 53.1685 17.3214 53.1685 15.2083V8.24418H49.567V15.5574C49.567 19.3427 52.0476 21.6396 56.5679 21.6396Z"></path><path class="fill-black dark:fill-white" d="M69.0819 17.0642H72.665L75.4947 21.4374H79.6291L76.4319 16.6783C78.2326 16.0352 79.3351 14.6019 79.3351 12.6542C79.3351 9.82443 77.222 8.24418 74.0064 8.24418H65.4804V21.4374H69.0819V17.0642ZM69.0819 14.2161V11.2577H73.8226C75.0905 11.2577 75.7887 11.8089 75.7887 12.7461C75.7887 13.6281 75.0905 14.2161 73.8226 14.2161H69.0819Z"></path><path class="fill-black dark:fill-white" d="M81.0108 21.4374H90.4372C93.3772 21.4374 95.0677 20.0409 95.0677 17.7073C95.0677 16.1454 94.0754 15.0797 92.8994 14.6019C93.7079 14.2161 94.7002 13.2973 94.7002 11.8457C94.7002 9.51206 93.0464 8.24418 90.1248 8.24418H81.0108V21.4374ZM84.4653 13.4076V11.1658H89.7573C90.7496 11.1658 91.3008 11.5517 91.3008 12.2867C91.3008 13.0217 90.7496 13.4076 89.7573 13.4076H84.4653ZM84.4653 16.1087H90.0881C91.0619 16.1087 91.5948 16.5864 91.5948 17.3031C91.5948 18.0197 91.0619 18.4974 90.0881 18.4974H84.4653V16.1087Z"></path><path class="fill-black dark:fill-white" d="M103.873 8.02368C99.2612 8.02368 95.9353 10.9086 95.9353 14.8408C95.9353 18.7731 99.2612 21.6579 103.873 21.6579C108.485 21.6579 111.793 18.7731 111.793 14.8408C111.793 10.9086 108.485 8.02368 103.873 8.02368ZM103.873 11.1474C106.299 11.1474 108.118 12.5807 108.118 14.8408C108.118 17.1009 106.299 18.5342 103.873 18.5342C101.448 18.5342 99.6287 17.1009 99.6287 14.8408C99.6287 12.5807 101.448 11.1474 103.873 11.1474Z"></path></g></svg>
+
+<footer class="absolute bottom-4 right-4 text-xl text-semibold text-zinc-500">@fortysevenfx</footer>
 
 ---
 title: Announcement
@@ -1130,6 +1236,8 @@ title: Announcement
 
 </div>
 
+<footer class="absolute bottom-4 right-4 text-xl text-semibold text-zinc-500">@fortysevenfx</footer>
+
 ---
 title: v2 Features
 ---
@@ -1142,6 +1250,8 @@ title: v2 Features
 - Fewer hacks
 
 </div>
+
+<footer class="absolute bottom-4 right-4 text-xl text-semibold text-zinc-500">@fortysevenfx</footer>
 
 ---
 title: Thank you!
@@ -1165,3 +1275,5 @@ title: Thank you!
   <p class="text-center text-3xl font-semibold">nuqs.47ng.com</p>
   <p class="text-center text-3xl font-semibold">OpenFeedback</p>
 </div>
+
+<footer class="absolute bottom-4 right-4 text-xl text-semibold text-zinc-500">@fortysevenfx</footer>
