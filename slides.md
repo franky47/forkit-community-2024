@@ -178,6 +178,7 @@ title: Before that (VMR)
 layout: image
 image: /img/vmr.jpg
 backgroundSize: 120vh
+class: bg-black
 ---
 
 <!-- ...into digital plugins using C++ -->
