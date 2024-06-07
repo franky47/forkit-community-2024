@@ -20,7 +20,7 @@ layout: cover
 
 # Maintaining an open-source library for Next.js
 
-Feedback & tips
+<p class="font-medium">Feedback & tips</p>
 
 <footer class="flex items-end justify-between fixed bottom-4 left-4 right-4">
   <div class="flex items-center gap-4 justify-center">
@@ -42,19 +42,52 @@ Feedback & tips
 </footer>
 
 <!--
-Before we start: light mode or dark mode?
+This talk is called...
+-->
 
-Thanks to the sponsors & Bear Studio
+---
+title: Thanks to the sponsors
+class: bg-white
+---
 
-This is my first talk at a tech conference,<br/>
+<img src="/img/sponsors/bearstudio@web.png" class="h-64 mx-auto" />
+
+<div class="flex gap-x-8 flex-wrap justify-center">
+  <img src="/img/sponsors/attineos@web.png" class="h-32" />
+  <img src="/img/sponsors/magnolia@web.png" class="h-32" />
+  <img src="/img/sponsors/docaposte-agility@web.png" class="h-32" />
+  <img src="/img/sponsors/oneprepaid@web.png" class="h-32" />
+  <img src="/img/sponsors/le-village-by-ca@web.png" class="h-32" />
+  <img src="/img/sponsors/digit@web.png" class="h-32" />
+</div>
+
+<!--
+First, thanks to the sponsors & Bear Studio for inviting me
+
+This is my first talk at a tech conference
+
 so please bear with me.
 -->
+
+---
+title: Light/dark
+---
+
+<LightOrDark>
+  <template #light>
+    <h1 class="text-9xl text-center">Light mode</h1>
+  </template>
+  <template #dark>
+    <h1 class="text-9xl text-center">Dark mode</h1>
+  </template>
+</LightOrDark>
+
 
 ---
 title: What to expect
 ---
 
-<h1 class="text-8xl text-center">What to expect</h1>
+<h1 class="text-9xl text-center">What to expect</h1>
 
 <!--
 No Next.js or React experience required
@@ -75,7 +108,7 @@ title: Hello!
     <div class="text-7xl text-primary font-semibold">
       François Best
     </div>
-    <div class="text-5xl text-zinc-500">
+    <div class="text-5xl text-zinc-500 font-medium">
       @fortysevenfx
     </div>
   </div>
@@ -83,42 +116,50 @@ title: Hello!
 
 <div class="flex justify-center mt-10">
   <div class="p-4 bg-white inline-block">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 29 29" class="w-48 h-48">
-      <path fill="#ffffff" d="M0,0 h29v29H0z" shapeRendering="crispEdges"/>
-      <path fill="#000000" d="M0 0h7v1H0zM9 0h1v1H9zM11 0h2v1H11zM14 0h4v1H14zM20 0h1v1H20zM22,0 h7v1H22zM0 1h1v1H0zM6 1h1v1H6zM8 1h1v1H8zM10 1h2v1H10zM17 1h4v1H17zM22 1h1v1H22zM28,1 h1v1H28zM0 2h1v1H0zM2 2h3v1H2zM6 2h1v1H6zM11 2h1v1H11zM13 2h1v1H13zM15 2h2v1H15zM18 2h2v1H18zM22 2h1v1H22zM24 2h3v1H24zM28,2 h1v1H28zM0 3h1v1H0zM2 3h3v1H2zM6 3h1v1H6zM8 3h2v1H8zM12 3h4v1H12zM17 3h4v1H17zM22 3h1v1H22zM24 3h3v1H24zM28,3 h1v1H28zM0 4h1v1H0zM2 4h3v1H2zM6 4h1v1H6zM8 4h1v1H8zM10 4h2v1H10zM14 4h2v1H14zM18 4h2v1H18zM22 4h1v1H22zM24 4h3v1H24zM28,4 h1v1H28zM0 5h1v1H0zM6 5h1v1H6zM9 5h3v1H9zM13 5h4v1H13zM20 5h1v1H20zM22 5h1v1H22zM28,5 h1v1H28zM0 6h7v1H0zM8 6h1v1H8zM10 6h1v1H10zM12 6h1v1H12zM14 6h1v1H14zM16 6h1v1H16zM18 6h1v1H18zM20 6h1v1H20zM22,6 h7v1H22zM8 7h1v1H8zM19 7h1v1H19zM1 8h1v1H1zM3 8h4v1H3zM8 8h3v1H8zM12 8h1v1H12zM16 8h2v1H16zM19 8h4v1H19zM24 8h2v1H24zM27 8h1v1H27zM0 9h1v1H0zM2 9h3v1H2zM7 9h1v1H7zM9 9h3v1H9zM13 9h2v1H13zM17 9h1v1H17zM19 9h1v1H19zM21 9h1v1H21zM23 9h2v1H23zM26 9h2v1H26zM0 10h1v1H0zM3 10h1v1H3zM5 10h2v1H5zM9 10h1v1H9zM20 10h3v1H20zM24 10h1v1H24zM0 11h1v1H0zM2 11h2v1H2zM5 11h1v1H5zM9 11h1v1H9zM19 11h2v1H19zM24 11h2v1H24zM28,11 h1v1H28zM2 12h2v1H2zM5 12h4v1H5zM19 12h1v1H19zM21 12h2v1H21zM27 12h1v1H27zM7 13h1v1H7zM22 13h1v1H22zM24 13h1v1H24zM26,13 h3v1H26zM0 14h2v1H0zM6 14h2v1H6zM19 14h1v1H19zM22 14h2v1H22zM25 14h1v1H25zM28,14 h1v1H28zM2 15h4v1H2zM7 15h2v1H7zM24 15h4v1H24zM0 16h1v1H0zM2 16h6v1H2zM20 16h1v1H20zM23 16h1v1H23zM25 16h1v1H25zM28,16 h1v1H28zM0 17h2v1H0zM4 17h1v1H4zM8 17h2v1H8zM19 17h2v1H19zM24 17h2v1H24zM0 18h2v1H0zM4 18h1v1H4zM6 18h2v1H6zM9 18h1v1H9zM19 18h2v1H19zM25 18h2v1H25zM28,18 h1v1H28zM0 19h2v1H0zM4 19h2v1H4zM7 19h4v1H7zM13 19h2v1H13zM21 19h2v1H21zM24 19h1v1H24zM26 19h1v1H26zM0 20h7v1H0zM8 20h5v1H8zM15 20h3v1H15zM20 20h5v1H20zM26,20 h3v1H26zM8 21h1v1H8zM12 21h2v1H12zM15 21h1v1H15zM18 21h1v1H18zM20 21h1v1H20zM24 21h3v1H24zM0 22h7v1H0zM9 22h3v1H9zM15 22h2v1H15zM18 22h3v1H18zM22 22h1v1H22zM24 22h1v1H24zM26 22h1v1H26zM0 23h1v1H0zM6 23h1v1H6zM8 23h2v1H8zM11 23h1v1H11zM15 23h1v1H15zM17 23h4v1H17zM24 23h2v1H24zM0 24h1v1H0zM2 24h3v1H2zM6 24h1v1H6zM8 24h1v1H8zM10 24h1v1H10zM13 24h1v1H13zM18 24h7v1H18zM28,24 h1v1H28zM0 25h1v1H0zM2 25h3v1H2zM6 25h1v1H6zM8 25h4v1H8zM15 25h1v1H15zM17 25h1v1H17zM23 25h1v1H23zM25 25h1v1H25zM28,25 h1v1H28zM0 26h1v1H0zM2 26h3v1H2zM6 26h1v1H6zM12 26h1v1H12zM14 26h2v1H14zM18 26h1v1H18zM20 26h2v1H20zM23 26h2v1H23zM27,26 h2v1H27zM0 27h1v1H0zM6 27h1v1H6zM8 27h2v1H8zM11 27h1v1H11zM14 27h1v1H14zM18 27h1v1H18zM21 27h2v1H21zM24 27h3v1H24zM28,27 h1v1H28zM0 28h7v1H0zM9 28h2v1H9zM13 28h2v1H13zM18 28h3v1H18zM23 28h3v1H23z" shapeRendering="crispEdges"/>
-      <image href="/img/x.svg" height="7.25" width="7.25" x="10.875" y="10.875" preserveAspectRatio="none"/>
-    </svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 29 29" class="size-48"><path fill="#ffffff" d="M0,0 h29v29H0z" shapeRendering="crispEdges"></path><path fill="#000000" d="M0 0h7v1H0zM8 0h1v1H8zM11 0h1v1H11zM13 0h1v1H13zM17 0h2v1H17zM20 0h1v1H20zM22,0 h7v1H22zM0 1h1v1H0zM6 1h1v1H6zM9 1h1v1H9zM11 1h3v1H11zM15 1h3v1H15zM19 1h1v1H19zM22 1h1v1H22zM28,1 h1v1H28zM0 2h1v1H0zM2 2h3v1H2zM6 2h1v1H6zM9 2h2v1H9zM14 2h2v1H14zM18 2h3v1H18zM22 2h1v1H22zM24 2h3v1H24zM28,2 h1v1H28zM0 3h1v1H0zM2 3h3v1H2zM6 3h1v1H6zM9 3h1v1H9zM12 3h1v1H12zM15 3h5v1H15zM22 3h1v1H22zM24 3h3v1H24zM28,3 h1v1H28zM0 4h1v1H0zM2 4h3v1H2zM6 4h1v1H6zM8 4h1v1H8zM10 4h1v1H10zM13 4h3v1H13zM19 4h1v1H19zM22 4h1v1H22zM24 4h3v1H24zM28,4 h1v1H28zM0 5h1v1H0zM6 5h1v1H6zM8 5h3v1H8zM13 5h3v1H13zM18 5h1v1H18zM20 5h1v1H20zM22 5h1v1H22zM28,5 h1v1H28zM0 6h7v1H0zM8 6h1v1H8zM10 6h1v1H10zM12 6h1v1H12zM14 6h1v1H14zM16 6h1v1H16zM18 6h1v1H18zM20 6h1v1H20zM22,6 h7v1H22zM9 7h5v1H9zM15 7h2v1H15zM19 7h2v1H19zM1 8h7v1H1zM10 8h2v1H10zM13 8h4v1H13zM18 8h2v1H18zM23 8h2v1H23zM28,8 h1v1H28zM0 9h2v1H0zM4 9h2v1H4zM7 9h1v1H7zM10 9h6v1H10zM22 9h5v1H22zM28,9 h1v1H28zM1 10h2v1H1zM4 10h1v1H4zM6 10h1v1H6zM8 10h2v1H8zM20 10h4v1H20zM25 10h2v1H25zM0 11h2v1H0zM3 11h2v1H3zM7 11h3v1H7zM21 11h3v1H21zM25 11h1v1H25zM27 11h1v1H27zM0 12h2v1H0zM4 12h1v1H4zM6 12h2v1H6zM21 12h1v1H21zM23 12h1v1H23zM26,12 h3v1H26zM1 13h4v1H1zM7 13h1v1H7zM19 13h4v1H19zM24 13h2v1H24zM27,13 h2v1H27zM2 14h2v1H2zM5 14h2v1H5zM8 14h2v1H8zM20 14h2v1H20zM23 14h1v1H23zM0 15h1v1H0zM2 15h1v1H2zM4 15h2v1H4zM8 15h2v1H8zM19 15h2v1H19zM24 15h2v1H24zM28,15 h1v1H28zM0 16h1v1H0zM3 16h1v1H3zM5 16h2v1H5zM9 16h1v1H9zM20 16h1v1H20zM23 16h1v1H23zM25 16h3v1H25zM0 17h1v1H0zM9 17h1v1H9zM19 17h1v1H19zM22 17h1v1H22zM24,17 h5v1H24zM0 18h1v1H0zM2 18h1v1H2zM4 18h3v1H4zM8 18h1v1H8zM20 18h1v1H20zM22 18h1v1H22zM24 18h2v1H24zM0 19h1v1H0zM2 19h4v1H2zM7 19h3v1H7zM11 19h2v1H11zM15 19h1v1H15zM20 19h1v1H20zM22 19h1v1H22zM27,19 h2v1H27zM0 20h1v1H0zM3 20h2v1H3zM6 20h1v1H6zM8 20h8v1H8zM17 20h1v1H17zM19 20h6v1H19zM26,20 h3v1H26zM8 21h1v1H8zM10 21h2v1H10zM13 21h1v1H13zM18 21h1v1H18zM20 21h1v1H20zM24 21h2v1H24zM27,21 h2v1H27zM0 22h7v1H0zM8 22h1v1H8zM11 22h2v1H11zM15 22h2v1H15zM18 22h3v1H18zM22 22h1v1H22zM24 22h1v1H24zM0 23h1v1H0zM6 23h1v1H6zM8 23h2v1H8zM12 23h3v1H12zM16 23h1v1H16zM19 23h2v1H19zM24 23h2v1H24zM27,23 h2v1H27zM0 24h1v1H0zM2 24h3v1H2zM6 24h1v1H6zM8 24h3v1H8zM12 24h1v1H12zM14 24h2v1H14zM18 24h1v1H18zM20 24h7v1H20zM28,24 h1v1H28zM0 25h1v1H0zM2 25h3v1H2zM6 25h1v1H6zM8 25h1v1H8zM10 25h8v1H10zM19 25h3v1H19zM23 25h1v1H23zM25 25h2v1H25zM0 26h1v1H0zM2 26h3v1H2zM6 26h1v1H6zM8 26h1v1H8zM17 26h1v1H17zM19 26h9v1H19zM0 27h1v1H0zM6 27h1v1H6zM8 27h1v1H8zM12 27h2v1H12zM16 27h1v1H16zM18 27h4v1H18zM24 27h2v1H24zM27 27h1v1H27zM0 28h7v1H0zM13 28h1v1H13zM17 28h1v1H17zM21 28h2v1H21zM24 28h3v1H24z" shapeRendering="crispEdges"></path><image href="/img/x.svg" height="7.25" width="7.25" x="10.875" y="10.875" preserveAspectRatio="none"/></svg>
   </div>
 </div>
 
 <!--
-My name is François Best, you can find me on Twitter as @fortysevenfx.
+My name is François Best
+
+Find me on X (formerly Twitter) as @fortysevenfx.
 -->
 
 ---
 title: What I do
 ---
 
-<p class="text-center text-black dark:text-white text-5xl font-semibold">Freelance web developer @ 47ng</p>
+<p class="text-center text-black dark:text-white text-6xl font-bold">Freelance web developer</p>
 
-<div class="grid grid-cols-5 items-center justify-center gap-x-12 gap-y-4 text-center text-3xl text-zinc-500  mt-20">
+<div class="grid grid-cols-5 items-center justify-center gap-x-12 gap-y-4 text-center text-3xl text-zinc-500 mt-20">
+  <img src="/img/typescript.svg" alt="Fastify" class="w-32 h-32" />
   <img src="/img/react.svg" alt="React" class="w-32 h-32" />
   <img src="/img/next.svg" alt="Next.js" class="w-32 h-32" />
-  <img src="/img/typescript.svg" alt="Fastify" class="w-32 h-32" />
+  <img src="/img/nodejs.svg" alt="Node.js" class="w-32 h-32" />
   <img src="/img/fastify-dark.svg" alt="Fastify" class="w-32 h-32 hidden dark:block" />
   <img src="/img/fastify-light.svg" alt="Fastify" class="w-32 h-32 block dark:hidden" />
-  <img src="/img/nodejs.svg" alt="Node.js" class="w-32 h-32" />
+  <label>TypeScript</label>
   <label>React</label>
   <label>Next.js</label>
-  <label>TypeScript</label>
-  <label>Fastify</label>
   <label>Node.js</label>
+  <label>Fastify</label>
+</div>
+
+<div class="flex justify-center mt-10">
+  <div class="p-4 bg-white inline-block">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 29 29" class="size-32"><path fill="#ffffff" d="M0,0 h29v29H0z" shapeRendering="crispEdges"></path><path fill="#000000" d="M0 0h7v1H0zM8 0h1v1H8zM11 0h1v1H11zM13 0h1v1H13zM17 0h2v1H17zM20 0h1v1H20zM22,0 h7v1H22zM0 1h1v1H0zM6 1h1v1H6zM9 1h1v1H9zM11 1h3v1H11zM15 1h3v1H15zM19 1h1v1H19zM22 1h1v1H22zM28,1 h1v1H28zM0 2h1v1H0zM2 2h3v1H2zM6 2h1v1H6zM9 2h2v1H9zM14 2h2v1H14zM18 2h3v1H18zM22 2h1v1H22zM24 2h3v1H24zM28,2 h1v1H28zM0 3h1v1H0zM2 3h3v1H2zM6 3h1v1H6zM9 3h1v1H9zM12 3h1v1H12zM15 3h5v1H15zM22 3h1v1H22zM24 3h3v1H24zM28,3 h1v1H28zM0 4h1v1H0zM2 4h3v1H2zM6 4h1v1H6zM8 4h1v1H8zM10 4h1v1H10zM13 4h3v1H13zM19 4h1v1H19zM22 4h1v1H22zM24 4h3v1H24zM28,4 h1v1H28zM0 5h1v1H0zM6 5h1v1H6zM8 5h3v1H8zM13 5h3v1H13zM18 5h1v1H18zM20 5h1v1H20zM22 5h1v1H22zM28,5 h1v1H28zM0 6h7v1H0zM8 6h1v1H8zM10 6h1v1H10zM12 6h1v1H12zM14 6h1v1H14zM16 6h1v1H16zM18 6h1v1H18zM20 6h1v1H20zM22,6 h7v1H22zM9 7h5v1H9zM15 7h2v1H15zM19 7h2v1H19zM1 8h7v1H1zM10 8h2v1H10zM13 8h4v1H13zM18 8h2v1H18zM23 8h2v1H23zM28,8 h1v1H28zM0 9h2v1H0zM4 9h2v1H4zM7 9h1v1H7zM10 9h6v1H10zM22 9h5v1H22zM28,9 h1v1H28zM1 10h2v1H1zM4 10h1v1H4zM6 10h1v1H6zM8 10h2v1H8zM20 10h4v1H20zM25 10h2v1H25zM0 11h2v1H0zM3 11h2v1H3zM7 11h3v1H7zM21 11h3v1H21zM25 11h1v1H25zM27 11h1v1H27zM0 12h2v1H0zM4 12h1v1H4zM6 12h2v1H6zM21 12h1v1H21zM23 12h1v1H23zM26,12 h3v1H26zM1 13h4v1H1zM7 13h1v1H7zM19 13h4v1H19zM24 13h2v1H24zM27,13 h2v1H27zM2 14h2v1H2zM5 14h2v1H5zM8 14h2v1H8zM20 14h2v1H20zM23 14h1v1H23zM0 15h1v1H0zM2 15h1v1H2zM4 15h2v1H4zM8 15h2v1H8zM19 15h2v1H19zM24 15h2v1H24zM28,15 h1v1H28zM0 16h1v1H0zM3 16h1v1H3zM5 16h2v1H5zM9 16h1v1H9zM20 16h1v1H20zM23 16h1v1H23zM25 16h3v1H25zM0 17h1v1H0zM9 17h1v1H9zM19 17h1v1H19zM22 17h1v1H22zM24,17 h5v1H24zM0 18h1v1H0zM2 18h1v1H2zM4 18h3v1H4zM8 18h1v1H8zM20 18h1v1H20zM22 18h1v1H22zM24 18h2v1H24zM0 19h1v1H0zM2 19h4v1H2zM7 19h3v1H7zM11 19h2v1H11zM15 19h1v1H15zM20 19h1v1H20zM22 19h1v1H22zM27,19 h2v1H27zM0 20h1v1H0zM3 20h2v1H3zM6 20h1v1H6zM8 20h8v1H8zM17 20h1v1H17zM19 20h6v1H19zM26,20 h3v1H26zM8 21h1v1H8zM10 21h2v1H10zM13 21h1v1H13zM18 21h1v1H18zM20 21h1v1H20zM24 21h2v1H24zM27,21 h2v1H27zM0 22h7v1H0zM8 22h1v1H8zM11 22h2v1H11zM15 22h2v1H15zM18 22h3v1H18zM22 22h1v1H22zM24 22h1v1H24zM0 23h1v1H0zM6 23h1v1H6zM8 23h2v1H8zM12 23h3v1H12zM16 23h1v1H16zM19 23h2v1H19zM24 23h2v1H24zM27,23 h2v1H27zM0 24h1v1H0zM2 24h3v1H2zM6 24h1v1H6zM8 24h3v1H8zM12 24h1v1H12zM14 24h2v1H14zM18 24h1v1H18zM20 24h7v1H20zM28,24 h1v1H28zM0 25h1v1H0zM2 25h3v1H2zM6 25h1v1H6zM8 25h1v1H8zM10 25h8v1H10zM19 25h3v1H19zM23 25h1v1H23zM25 25h2v1H25zM0 26h1v1H0zM2 26h3v1H2zM6 26h1v1H6zM8 26h1v1H8zM17 26h1v1H17zM19 26h9v1H19zM0 27h1v1H0zM6 27h1v1H6zM8 27h1v1H8zM12 27h2v1H12zM16 27h1v1H16zM18 27h4v1H18zM24 27h2v1H24zM27 27h1v1H27zM0 28h7v1H0zM13 28h1v1H13zM17 28h1v1H17zM21 28h2v1H21zM24 28h3v1H24z" shapeRendering="crispEdges"></path><image href="/img/x.svg" height="7.25" width="7.25" x="10.875" y="10.875" preserveAspectRatio="none"/></svg>
+  </div>
 </div>
 
 <!--
 I'm a freelance web developer since 2018.
-Mostly front-end with React & Next.js
+
+Mostly front-end with TypeScript, React & Next.js
+
 Sometimes full-stack with Node.js & Fastify
+
+Before that...
  -->
 
 ---
@@ -128,7 +169,8 @@ image: /img/ssl.jpg
 backgroundSize: fit
 ---
 
-<!-- Before that, I used to work in the audio industry where we turned analog recording studio gear like this...
+<!--
+I used to work in the audio industry where we turned analog recording studio gear like this...
 -->
 
 ---
@@ -179,9 +221,12 @@ title: In 2016
   <span>React 16<br/><span class="text-zinc-500 text-base">(with Class Components)</span></span>
 </div>
 
-<!-- I started using web technologies 8 years ago,
+<!--
+I started using web technologies 8 years ago,
 <br/>
 when these started to become popular.
+
+Building fast & shipping faster
 -->
 
 ---
@@ -195,6 +240,14 @@ title: Beauty of the web
 - <span class="text-zinc-500">3.</span> 😍
 
 </div>
+
+<!--
+Deploy
+
+Instantly get to the latest version
+
+From anywhere
+-->
 
 ---
 title: The URL
@@ -211,6 +264,10 @@ title: The URL
   <span class="text-orange-600 dark:text-orange-400">#fragment</span>
 </p>
 
+<!--
+-> We can..
+-->
+
 ---
 title: What we can do with URLs
 ---
@@ -224,6 +281,22 @@ title: What we can do with URLs
 </div>
 
 ---
+title: Deep linking
+---
+
+<h1 class="text-9xl text-center">Deep Linking</h1>
+
+<p class="text-6xl text-center mt-8 -mb-8 font-semibold" v-click>in web apps?</p>
+
+<!--
+Native has deep linking
+
+How can we do it in web apps too?
+
+-> We can leverage parts of the URL
+-->
+
+---
 title: Pathname
 ---
 
@@ -235,15 +308,28 @@ title: Pathname
   <span class="text-zinc-500">#fragment</span>
 </p>
 
+<!--
+Content, what page we are on
+-->
+
 ---
 title: Routing in frameworks
 ---
 
-<p class="text-4xl text-black dark:text-white">In Next.js</p>
+<h1 class="text-8xl text-center">In Next.js</h1>
 
-<pre class="text-3xl">
-src/app/pathname/page.tsx -> /pathname
-</pre>
+<div class="grid grid-cols-2 gap-x-12 text-5xl text-black dark:text-white font-medium items-baseline">
+  <p class="text-end">URL pathname</p>
+  <p class="font-mono text-3xl font-semibold"><span class="text-zinc-500">https://...</span>/foo/bar</p>
+  <p class="text-end">File (pages router)</p>
+  <p class="font-mono text-3xl font-semibold">./pages/foo/bar.tsx</p>
+  <p class="text-end">File (app router)</p>
+  <p class="font-mono text-3xl font-semibold">./app/foo/bar/page.tsx</p>
+</div>
+
+<!--
+Next.js has two ways of mapping a file name to the URL pathname
+-->
 
 ---
 title: Fragment
@@ -257,7 +343,34 @@ title: Fragment
   <span class="text-orange-600 dark:text-orange-400 font-semibold">#fragment</span>
 </p>
 
-<!-- todo: Add an example with GitHub issues comments -->
+<!--
+Location
+-->
+
+---
+title: ID scrolling
+---
+
+<p class="text-6xl mb-16">
+  <!-- <span class="text-zinc-500">https://</span>
+  <span class="text-zinc-500">example.com</span> -->
+  <span class="text-zinc-500">/a-long-list</span>
+  <span class="text-orange-600 dark:text-orange-400 font-semibold">#item-12345</span>
+</p>
+
+```html
+<ul>
+  <!-- lots of items... -->
+  <li id="item-12345">Scroll to me!</li>
+  <!-- ...lots more items -->
+</ul>
+```
+
+<style>
+pre, code {
+  font-size: 2rem;
+}
+</style>
 
 ---
 title: The Query string
@@ -272,6 +385,20 @@ title: The Query string
   <span class="text-zinc-500">#fragment</span>
 </p>
 
+<p class="text-center text-5xl mt-16 -mb-16 text-black dark:text-white" v-click>
+query string, search params, query params?
+</p>
+
+<!--
+Key value store
+
+No consensus on the name
+
+[DEMO] GitHub tabs
+
+-> Story time: back in the pandemic
+-->
+
 ---
 title: Woodworking
 layout: image
@@ -279,6 +406,10 @@ image: /img/mallet.jpeg
 backgroundSize: contain
 class: bg-white
 ---
+
+<!--
+During the pandemic, I got into woodworking
+-->
 
 ---
 title: Dovetail designer
@@ -288,12 +419,23 @@ backgroundSize: contain
 class: bg-white
 ---
 
+<!--
+I built this little app
+
+[DEMO]
+
+Design on laptop, workshop with my phone
+
+Never used it
+
+Kept reusing the pattern
+-->
 
 ---
 title: Query string in Next.js
 ---
 
-<p class="text-5xl font-bold text-black dark:text-white text-center">In Next.js</p>
+<h1 class="text-5xl font-bold text-black dark:text-white text-center mt-0 mb-8">In Next.js</h1>
 
 ```tsx
 import { useSearchParams, useRouter } from 'next/navigation'
@@ -316,20 +458,24 @@ pre, code {
 }
 </style>
 
+<!--
+Verbose
+
+Imperative, error-prone
+-->
 
 ---
 title: next-usequerystate
 ---
 
-<h1 class="text-6xl font-bold text-black dark:text-white text-center mb-12">next-usequerystate</h1>
+<h1 class="text-5xl font-bold text-black dark:text-white text-center mt-0 mb-8">next-usequerystate</h1>
 
 ```tsx
 import { useQueryState } from 'next-usequerystate'
 
 function SearchComponent() {
-  const [search, setSearch] = useQueryState('search', {
-    defaultValue: ''
-  })
+  const [state, setState] = React.useState('')
+  const [search, setSearch] = useQueryState('search')
   return (
     <input
       type="search"
@@ -340,14 +486,23 @@ function SearchComponent() {
 }
 ```
 
-<style>
-pre {
-  font-size: 1.5rem;
+<style key="zddqd">
+pre, code {
+  font-size: 1.4rem;
 }
 </style>
 
-<!-- That was in 2020 -->
+<!--
+Published on NPM
 
+That was in 2020
+
+API looks like React.useState
+
+How useState works: in-memory, lost on page reload
+
+[DEMO] landing
+-->
 
 ---
 title: Users
@@ -360,10 +515,32 @@ title: Users
   />
 </svg>
 
-<div style="width: 90%;" class="bg-red-500 mx-auto">
+<div style="width: 90%;" class="mx-auto">
 <img src="/img/users-light.png" alt="Users" class="block dark:hidden"/>
 <img src="/img/users-dark.png" alt="Users" class="hidden dark:block"/>
 </div>
+
+<!--
+It got some attention
+
+Vercel, authors of Next.js
+
+Little, but growing community of users and contributors
+-->
+
+---
+title: Star history
+layout: image
+image: /img/star-history.png
+backgroundSize: contain
+class: bg-white
+---
+
+<!--
+Started talking more about this pattern
+
+-> Earlier this year...
+-->
 
 ---
 title: nuqs
@@ -380,20 +557,38 @@ title: nuqs
   <span>s</span>
 </h1>
 
+<!--
+Renamed it to nuqs
+
+Next / nuxt / nuqs
+
+-> My goals for it...
+-->
 
 ---
-title: Star history
-layout: image
-image: /img/star-history.png
-backgroundSize: contain
-class: bg-white
+title: My goals for nuqs
 ---
+
+<ul class="text-5xl text-black dark:text-white font-semibold space-y-8">
+  <li>Works everywhere <span class="text-zinc-500">(pages & app router)</span></li>
+  <li>Reliable</li>
+  <li>Type-safe</li>
+  <li>Server & client</li>
+</ul>
+
+<!--
+Most modern versions of Next.js
+
+Provide the missing pieces for working with URL state in Next.js
+
+-> One challenge was...
+-->
 
 ---
 title: RSC
 ---
 
-<h1 class="text-6xl text-center">React Server Components</h1>
+<h1 class="text-7xl text-center">React Server Components</h1>
 
 ---
 title: Server-first
@@ -401,27 +596,46 @@ title: Server-first
 
 <h1 class="text-9xl text-center">Server-first</h1>
 
+<!--
+Go through the server for every event
+
+Terrible user experience
+-->
+
 ---
 title: Shallow routing
 ---
 
-<h1 class="text-8xl text-center">Shallow routing</h1>
+<h1 class="text-9xl text-center">Shallow routing</h1>
+
+<!--
+Updating the URL without calling the server
+-->
 
 ---
 title: Shallow in nuqs
 ---
 
-
 ```tsx
-useQueryState('client', { shallow: true })
-useQueryState('server', { shallow: false })
+// Next.js pages router
+router.replace('?new=url', { shallow: true })
+
+// Local-first
+useQueryState('q', { shallow: true })
+
+// Server-first
+useQueryState('q', { shallow: false })
 ```
 
-<style>
+<style key="12">
 pre, code {
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 </style>
+
+<!--
+How to make it work with app router ?
+-->
 
 ---
 title: History API
@@ -438,17 +652,27 @@ history.pushState(state, '', url)
 history.replaceState(state, '', url)
 ```
 
-<style>
+<style key="11">
 pre, code {
-  font-size: 2rem;
+  font-size: 2.25rem;
 }
 </style>
+
+<!--
+We don't care about state -> move it into the URL to be shared
+
+-> But there's a problem...
+-->
 
 ---
 title: Rate limits
 ---
 
 <h1 class="text-9xl text-center">Rate limits</h1>
+
+<!--
+Define MDN
+-->
 
 ---
 title: Browsers
@@ -478,6 +702,20 @@ title: Throttling
 ---
 
 <h1 class="text-9xl text-center">Throttling</h1>
+
+---
+title: How throttling works
+---
+
+<LightOrDark>
+  <template #light>
+    <img src="/img/throttling-light.png"/>
+  </template>
+  <template #dark>
+    <img src="/img/throttling-dark.png"/>
+  </template>
+</LightOrDark>
+
 
 ---
 title: Writing
@@ -611,6 +849,14 @@ title: Sync
 <h1 class="text-9xl text-center leading-tight">Syncing via<br/>Event Emitter</h1>
 
 ---
+title: Sync from URL
+---
+
+<img src="/img/sync-light.png" class="block dark:hidden"/>
+<img src="/img/sync-dark.png" class="hidden dark:block"/>
+
+
+---
 title: Bug on canary
 ---
 
@@ -647,19 +893,29 @@ title: What I like
 
 ---
 title: Subscribe to Next.js releases
-layout: image
-image: /img/sub-release.png
-backgroundSize: contain
-class: bg-black
 ---
+
+<LightOrDark>
+  <template #light>
+    <img src="/img/sub-release-light.png"/>
+  </template>
+  <template #dark>
+    <img src="/img/sub-release-dark.png"/>
+  </template>
+</LightOrDark>
 
 ---
 title: Too many releases
-layout: image
-image: /img/next-releases.png
-backgroundSize: contain
-class: bg-black
 ---
+
+<LightOrDark>
+  <template #light>
+    <img src="/img/next-releases-light.png"/>
+  </template>
+  <template #dark>
+    <img src="/img/next-releases-dark.png"/>
+  </template>
+</LightOrDark>
 
 ---
 title: What are our options?
@@ -671,7 +927,37 @@ title: What are our options?
 title: GitHub API
 ---
 
-<h1 class="text-9xl text-center">GitHub API</h1>
+<h1 class="text-6xl text-center mt-0 mb-4">GitHub API</h1>
+
+```json
+// GET https://api.github.com/repos/vercel/next.js/releases
+[
+  {
+    "name": "v15.0.0-canary.14",
+    "prerelease": true,
+    "published_at": "2024-06-05T23:31:15Z",
+    "body": "### Core Changes\n\n- Fix loading navigation with metadata..."
+  },
+  {
+    "name": "v15.0.0-canary.13",
+    "prerelease": true,
+    "published_at": "2024-06-05T21:23:01Z",
+    "body": "### Core Changes\n\n- Re-land Fix broken HTML inlining of ..."
+  },
+  {
+    "name": "v15.0.0-canary.12",
+    "prerelease": true,
+    "published_at": "2024-06-05T03:37:31Z",
+    "body": "### Core Changes\n\n- fix NextRequest proxy in edge runtime..."
+  },
+]
+```
+
+<!-- <style key="sqdqqdzddqzm">
+pre,code {
+  font-size: 0.8rem;
+}
+</style> -->
 
 ---
 title: Cron
@@ -782,6 +1068,12 @@ End-to-end testing
   <img src="/img/cypress-dark.svg" class="h-32 hidden dark:block mx-auto mt-8"/>
 </h1>
 
+<!--
+This helped me found some issues in the app router core
+
+Did you know ? <next slide>
+-->
+
 ---
 title: App router Redux
 ---
@@ -792,11 +1084,27 @@ title: App router Redux
   <img src="/img/redux.svg" class="h-48 block"/>
 </h1>
 
+<!--
+Redux is still a valid choice for library code
+
+Not so much for application code (feature creep)
+-->
+
 ---
 title: Test matrix
-layout: image-left
-image: /img/matrix.png
+layout: two-cols
 ---
+
+<LightOrDark>
+<template #light>
+<img src="/img/matrix-light.png"/>
+</template>
+<template #dark>
+<img src="/img/matrix-dark.png"/>
+</template>
+</LightOrDark>
+
+::right::
 
 <h1 class="text-7xl text-center leading-tight">Testing<br/>every<br/>supported<br/>version</h1>
 
@@ -843,17 +1151,16 @@ title: Thank you!
 <div class="grid grid-cols-2 gap-x-48">
   <div class="flex justify-center mt-10">
     <div class="p-4 bg-white inline-block">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 29 29" class="size-48"><path fill="#ffffff" d="M0,0 h29v29H0z" shapeRendering="crispEdges"></path><path fill="#000000" d="M0 0h7v1H0zM9 0h3v1H9zM13 0h1v1H13zM15 0h1v1H15zM19 0h1v1H19zM22,0 h7v1H22zM0 1h1v1H0zM6 1h1v1H6zM10 1h1v1H10zM12 1h1v1H12zM14 1h3v1H14zM22 1h1v1H22zM28,1 h1v1H28zM0 2h1v1H0zM2 2h3v1H2zM6 2h1v1H6zM9 2h1v1H9zM14 2h1v1H14zM16 2h1v1H16zM19 2h2v1H19zM22 2h1v1H22zM24 2h3v1H24zM28,2 h1v1H28zM0 3h1v1H0zM2 3h3v1H2zM6 3h1v1H6zM9 3h2v1H9zM13 3h1v1H13zM15 3h5v1H15zM22 3h1v1H22zM24 3h3v1H24zM28,3 h1v1H28zM0 4h1v1H0zM2 4h3v1H2zM6 4h1v1H6zM8 4h2v1H8zM13 4h1v1H13zM15 4h3v1H15zM19 4h1v1H19zM22 4h1v1H22zM24 4h3v1H24zM28,4 h1v1H28zM0 5h1v1H0zM6 5h1v1H6zM11 5h1v1H11zM16 5h1v1H16zM19 5h2v1H19zM22 5h1v1H22zM28,5 h1v1H28zM0 6h7v1H0zM8 6h1v1H8zM10 6h1v1H10zM12 6h1v1H12zM14 6h1v1H14zM16 6h1v1H16zM18 6h1v1H18zM20 6h1v1H20zM22,6 h7v1H22zM8 7h3v1H8zM13 7h1v1H13zM16 7h3v1H16zM2 8h2v1H2zM6 8h3v1H6zM10 8h4v1H10zM19 8h4v1H19zM24 8h1v1H24zM0 9h2v1H0zM3 9h1v1H3zM11 9h1v1H11zM17 9h3v1H17zM22 9h3v1H22zM26 9h1v1H26zM28,9 h1v1H28zM1 10h4v1H1zM6 10h2v1H6zM9 10h1v1H9zM20 10h1v1H20zM22 10h1v1H22zM26 10h2v1H26zM0 11h1v1H0zM2 11h2v1H2zM5 11h1v1H5zM7 11h1v1H7zM25 11h1v1H25zM28,11 h1v1H28zM0 12h1v1H0zM2 12h2v1H2zM5 12h3v1H5zM9 12h1v1H9zM20 12h2v1H20zM23 12h1v1H23zM26,12 h3v1H26zM1 13h1v1H1zM19 13h1v1H19zM22 13h2v1H22zM25 13h2v1H25zM28,13 h1v1H28zM2 14h7v1H2zM19 14h1v1H19zM22 14h4v1H22zM27,14 h2v1H27zM2 15h1v1H2zM4 15h2v1H4zM7 15h1v1H7zM20 15h1v1H20zM22 15h1v1H22zM24 15h2v1H24zM28,15 h1v1H28zM0 16h1v1H0zM2 16h1v1H2zM5 16h2v1H5zM8 16h1v1H8zM24 16h2v1H24zM1 17h5v1H1zM7 17h1v1H7zM20 17h2v1H20zM23 17h1v1H23zM26 17h1v1H26zM0 18h1v1H0zM3 18h2v1H3zM6 18h2v1H6zM9 18h1v1H9zM20 18h1v1H20zM22 18h5v1H22zM4 19h2v1H4zM7 19h2v1H7zM10 19h1v1H10zM12 19h1v1H12zM15 19h2v1H15zM18 19h1v1H18zM20 19h3v1H20zM25 19h2v1H25zM1 20h2v1H1zM6 20h1v1H6zM8 20h3v1H8zM12 20h1v1H12zM14 20h1v1H14zM16 20h1v1H16zM18 20h9v1H18zM8 21h2v1H8zM11 21h1v1H11zM15 21h1v1H15zM20 21h1v1H20zM24 21h2v1H24zM28,21 h1v1H28zM0 22h7v1H0zM8 22h5v1H8zM15 22h2v1H15zM18 22h3v1H18zM22 22h1v1H22zM24 22h1v1H24zM26 22h2v1H26zM0 23h1v1H0zM6 23h1v1H6zM10 23h2v1H10zM13 23h2v1H13zM16 23h1v1H16zM20 23h1v1H20zM24 23h1v1H24zM0 24h1v1H0zM2 24h3v1H2zM6 24h1v1H6zM9 24h1v1H9zM11 24h1v1H11zM14 24h3v1H14zM18 24h1v1H18zM20 24h7v1H20zM28,24 h1v1H28zM0 25h1v1H0zM2 25h3v1H2zM6 25h1v1H6zM8 25h3v1H8zM14 25h2v1H14zM19 25h1v1H19zM24 25h2v1H24zM27 25h1v1H27zM0 26h1v1H0zM2 26h3v1H2zM6 26h1v1H6zM8 26h1v1H8zM10 26h1v1H10zM12 26h1v1H12zM20 26h1v1H20zM23 26h1v1H23zM25 26h2v1H25zM28,26 h1v1H28zM0 27h1v1H0zM6 27h1v1H6zM9 27h1v1H9zM11 27h6v1H11zM18 27h3v1H18zM22 27h1v1H22zM24 27h2v1H24zM27 27h1v1H27zM0 28h7v1H0zM9 28h2v1H9zM12 28h12v1H12zM25 28h1v1H25zM27 28h1v1H27z" shapeRendering="crispEdges"></path><image href="/img/nuqs-light.svg" height="9" width="9" x="10" y="10" preserveAspectRatio="none"></image></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 29 29" class="size-48"><path fill="#ffffff" d="M0,0 h29v29H0z" shapeRendering="crispEdges"></path><path fill="#000000" d="M0 0h7v1H0zM9 0h1v1H9zM12 0h3v1H12zM16 0h2v1H16zM19 0h1v1H19zM22,0 h7v1H22zM0 1h1v1H0zM6 1h1v1H6zM8 1h3v1H8zM13 1h1v1H13zM18 1h1v1H18zM20 1h1v1H20zM22 1h1v1H22zM28,1 h1v1H28zM0 2h1v1H0zM2 2h3v1H2zM6 2h1v1H6zM8 2h3v1H8zM13 2h2v1H13zM22 2h1v1H22zM24 2h3v1H24zM28,2 h1v1H28zM0 3h1v1H0zM2 3h3v1H2zM6 3h1v1H6zM9 3h2v1H9zM14 3h2v1H14zM17 3h2v1H17zM22 3h1v1H22zM24 3h3v1H24zM28,3 h1v1H28zM0 4h1v1H0zM2 4h3v1H2zM6 4h1v1H6zM9 4h4v1H9zM15 4h1v1H15zM18 4h3v1H18zM22 4h1v1H22zM24 4h3v1H24zM28,4 h1v1H28zM0 5h1v1H0zM6 5h1v1H6zM10 5h1v1H10zM15 5h1v1H15zM18 5h3v1H18zM22 5h1v1H22zM28,5 h1v1H28zM0 6h7v1H0zM8 6h1v1H8zM10 6h1v1H10zM12 6h1v1H12zM14 6h1v1H14zM16 6h1v1H16zM18 6h1v1H18zM20 6h1v1H20zM22,6 h7v1H22zM9 7h2v1H9zM12 7h1v1H12zM17 7h3v1H17zM1 8h3v1H1zM5 8h2v1H5zM14 8h4v1H14zM20 8h1v1H20zM26 8h2v1H26zM0 9h1v1H0zM3 9h1v1H3zM5 9h1v1H5zM7 9h3v1H7zM14 9h3v1H14zM19 9h2v1H19zM22 9h5v1H22zM28,9 h1v1H28zM3 10h1v1H3zM5 10h5v1H5zM22 10h1v1H22zM25 10h1v1H25zM27 10h1v1H27zM0 11h1v1H0zM8 11h1v1H8zM19 11h1v1H19zM23 11h1v1H23zM28,11 h1v1H28zM1 12h6v1H1zM9 12h1v1H9zM21 12h1v1H21zM23 12h1v1H23zM26,12 h3v1H26zM0 13h1v1H0zM2 13h3v1H2zM7 13h1v1H7zM19 13h1v1H19zM22 13h2v1H22zM25 13h2v1H25zM28,13 h1v1H28zM3 14h1v1H3zM6 14h4v1H6zM19 14h2v1H19zM22 14h4v1H22zM27,14 h2v1H27zM1 15h3v1H1zM5 15h1v1H5zM9 15h1v1H9zM19 15h2v1H19zM24 15h2v1H24zM28,15 h1v1H28zM0 16h2v1H0zM5 16h3v1H5zM21 16h1v1H21zM24 16h2v1H24zM1 17h2v1H1zM4 17h2v1H4zM7 17h1v1H7zM9 17h1v1H9zM20 17h2v1H20zM23 17h1v1H23zM26 17h1v1H26zM0 18h1v1H0zM2 18h2v1H2zM6 18h1v1H6zM8 18h2v1H8zM20 18h1v1H20zM22 18h1v1H22zM25 18h1v1H25zM4 19h2v1H4zM7 19h4v1H7zM12 19h2v1H12zM15 19h5v1H15zM21 19h2v1H21zM24 19h1v1H24zM26 19h2v1H26zM1 20h1v1H1zM3 20h2v1H3zM6 20h2v1H6zM11 20h1v1H11zM14 20h5v1H14zM20 20h8v1H20zM8 21h3v1H8zM17 21h2v1H17zM20 21h1v1H20zM24 21h2v1H24zM27,21 h2v1H27zM0 22h7v1H0zM9 22h2v1H9zM12 22h1v1H12zM16 22h1v1H16zM18 22h3v1H18zM22 22h1v1H22zM24 22h1v1H24zM26 22h2v1H26zM0 23h1v1H0zM6 23h1v1H6zM8 23h2v1H8zM11 23h1v1H11zM15 23h1v1H15zM17 23h1v1H17zM20 23h1v1H20zM24 23h1v1H24zM0 24h1v1H0zM2 24h3v1H2zM6 24h1v1H6zM9 24h1v1H9zM11 24h6v1H11zM20 24h7v1H20zM28,24 h1v1H28zM0 25h1v1H0zM2 25h3v1H2zM6 25h1v1H6zM8 25h1v1H8zM10 25h1v1H10zM13 25h1v1H13zM19 25h1v1H19zM24 25h2v1H24zM27 25h1v1H27zM0 26h1v1H0zM2 26h3v1H2zM6 26h1v1H6zM8 26h3v1H8zM12 26h2v1H12zM17 26h2v1H17zM20 26h1v1H20zM23 26h1v1H23zM26 26h1v1H26zM28,26 h1v1H28zM0 27h1v1H0zM6 27h1v1H6zM8 27h1v1H8zM10 27h1v1H10zM13 27h3v1H13zM18 27h4v1H18zM24 27h2v1H24zM27 27h1v1H27zM0 28h7v1H0zM11 28h2v1H11zM18 28h1v1H18zM20 28h4v1H20zM27 28h1v1H27z" shapeRendering="crispEdges"></path><image href="/img/nuqs-light.svg" height="9" width="9" x="10" y="10" preserveAspectRatio="none"></image></svg>
     </div>
   </div>
   <div>
     <div class="flex justify-center mt-10">
       <div class="p-4 bg-white inline-block">
-        <svg xmlns="http://www.w3.org/2000/svg" class="size-48" viewBox="0 0 33 33"><path fill="#ffffff" d="M0,0 h33v33H0z" shapeRendering="crispEdges"></path><path fill="#000000" d="M0 0h7v1H0zM8 0h3v1H8zM12 0h1v1H12zM14 0h1v1H14zM18 0h2v1H18zM23 0h2v1H23zM26,0 h7v1H26zM0 1h1v1H0zM6 1h1v1H6zM8 1h1v1H8zM10 1h2v1H10zM15 1h3v1H15zM19 1h1v1H19zM22 1h1v1H22zM24 1h1v1H24zM26 1h1v1H26zM32,1 h1v1H32zM0 2h1v1H0zM2 2h3v1H2zM6 2h1v1H6zM8 2h1v1H8zM12 2h2v1H12zM17 2h2v1H17zM20 2h5v1H20zM26 2h1v1H26zM28 2h3v1H28zM32,2 h1v1H32zM0 3h1v1H0zM2 3h3v1H2zM6 3h1v1H6zM9 3h1v1H9zM12 3h1v1H12zM16 3h5v1H16zM22 3h2v1H22zM26 3h1v1H26zM28 3h3v1H28zM32,3 h1v1H32zM0 4h1v1H0zM2 4h3v1H2zM6 4h1v1H6zM9 4h3v1H9zM13 4h2v1H13zM21 4h4v1H21zM26 4h1v1H26zM28 4h3v1H28zM32,4 h1v1H32zM0 5h1v1H0zM6 5h1v1H6zM8 5h1v1H8zM14 5h3v1H14zM19 5h1v1H19zM21 5h2v1H21zM26 5h1v1H26zM32,5 h1v1H32zM0 6h7v1H0zM8 6h1v1H8zM10 6h1v1H10zM12 6h1v1H12zM14 6h1v1H14zM16 6h1v1H16zM18 6h1v1H18zM20 6h1v1H20zM22 6h1v1H22zM24 6h1v1H24zM26,6 h7v1H26zM8 7h5v1H8zM16 7h2v1H16zM19 7h1v1H19zM21 7h1v1H21zM2 8h3v1H2zM6 8h1v1H6zM8 8h1v1H8zM10 8h1v1H10zM12 8h1v1H12zM14 8h1v1H14zM16 8h1v1H16zM18 8h2v1H18zM22 8h6v1H22zM30,8 h3v1H30zM0 9h2v1H0zM3 9h1v1H3zM7 9h3v1H7zM12 9h1v1H12zM14 9h1v1H14zM20 9h2v1H20zM23 9h1v1H23zM25 9h2v1H25zM29 9h1v1H29zM31,9 h2v1H31zM0 10h4v1H0zM6 10h1v1H6zM11 10h2v1H11zM16 10h1v1H16zM18 10h1v1H18zM21 10h1v1H21zM25 10h3v1H25zM30 10h2v1H30zM1 11h1v1H1zM5 11h1v1H5zM7 11h1v1H7zM9 11h1v1H9zM11 11h3v1H11zM16 11h3v1H16zM21 11h2v1H21zM26 11h1v1H26zM29 11h2v1H29zM1 12h2v1H1zM4 12h1v1H4zM6 12h1v1H6zM8 12h4v1H8zM21 12h1v1H21zM24 12h2v1H24zM28 12h1v1H28zM31 12h1v1H31zM0 13h1v1H0zM3 13h1v1H3zM8 13h2v1H8zM11 13h1v1H11zM23 13h4v1H23zM30 13h1v1H30zM32,13 h1v1H32zM0 14h4v1H0zM6 14h1v1H6zM8 14h2v1H8zM11 14h1v1H11zM22 14h1v1H22zM24 14h2v1H24zM28 14h2v1H28zM31 14h1v1H31zM0 15h4v1H0zM8 15h3v1H8zM21 15h2v1H21zM24 15h1v1H24zM26 15h1v1H26zM28 15h4v1H28zM0 16h2v1H0zM6 16h2v1H6zM10 16h1v1H10zM23 16h1v1H23zM25 16h1v1H25zM27 16h2v1H27zM0 17h2v1H0zM7 17h1v1H7zM9 17h1v1H9zM21 17h1v1H21zM23 17h2v1H23zM26 17h1v1H26zM32,17 h1v1H32zM0 18h1v1H0zM3 18h2v1H3zM6 18h2v1H6zM21 18h2v1H21zM30 18h2v1H30zM0 19h2v1H0zM7 19h3v1H7zM21 19h1v1H21zM23 19h3v1H23zM28 19h4v1H28zM1 20h2v1H1zM6 20h2v1H6zM11 20h1v1H11zM22 20h1v1H22zM25 20h1v1H25zM27 20h3v1H27zM0 21h1v1H0zM2 21h1v1H2zM5 21h1v1H5zM7 21h1v1H7zM10 21h1v1H10zM15 21h1v1H15zM17 21h2v1H17zM20 21h2v1H20zM23 21h5v1H23zM29 21h2v1H29zM32,21 h1v1H32zM0 22h1v1H0zM2 22h2v1H2zM5 22h3v1H5zM9 22h1v1H9zM11 22h1v1H11zM18 22h1v1H18zM20 22h1v1H20zM24 22h1v1H24zM27 22h5v1H27zM0 23h1v1H0zM3 23h2v1H3zM9 23h4v1H9zM16 23h1v1H16zM18 23h1v1H18zM20 23h2v1H20zM23 23h2v1H23zM27 23h1v1H27zM29 23h3v1H29zM0 24h1v1H0zM3 24h1v1H3zM6 24h1v1H6zM8 24h2v1H8zM12 24h1v1H12zM14 24h1v1H14zM18 24h1v1H18zM20 24h1v1H20zM22 24h1v1H22zM24 24h5v1H24zM8 25h13v1H8zM24 25h1v1H24zM28 25h1v1H28zM32,25 h1v1H32zM0 26h7v1H0zM10 26h2v1H10zM13 26h3v1H13zM17 26h1v1H17zM19 26h2v1H19zM22 26h3v1H22zM26 26h1v1H26zM28 26h2v1H28zM31 26h1v1H31zM0 27h1v1H0zM6 27h1v1H6zM9 27h1v1H9zM11 27h1v1H11zM13 27h1v1H13zM16 27h1v1H16zM19 27h1v1H19zM23 27h2v1H23zM28 27h1v1H28zM30,27 h3v1H30zM0 28h1v1H0zM2 28h3v1H2zM6 28h1v1H6zM8 28h2v1H8zM12 28h1v1H12zM14 28h2v1H14zM18 28h1v1H18zM20 28h3v1H20zM24 28h5v1H24zM31,28 h2v1H31zM0 29h1v1H0zM2 29h3v1H2zM6 29h1v1H6zM8 29h2v1H8zM11 29h1v1H11zM16 29h1v1H16zM19 29h1v1H19zM21 29h1v1H21zM23 29h3v1H23zM28 29h1v1H28zM32,29 h1v1H32zM0 30h1v1H0zM2 30h3v1H2zM6 30h1v1H6zM8 30h4v1H8zM14 30h3v1H14zM18 30h1v1H18zM21 30h6v1H21zM29 30h1v1H29zM0 31h1v1H0zM6 31h1v1H6zM9 31h6v1H9zM17 31h3v1H17zM27 31h1v1H27zM30 31h1v1H30zM0 32h7v1H0zM9 32h1v1H9zM11 32h1v1H11zM14 32h2v1H14zM17 32h1v1H17zM20 32h1v1H20zM23 32h4v1H23zM29 32h1v1H29zM31 32h1v1H31z" shapeRendering="crispEdges"></path><image href="/img/forkit-icon.png" height="7" width="7" x="13" y="13" ></image></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 33 33" class="size-48"><path fill="#ffffff" d="M0,0 h33v33H0z" shapeRendering="crispEdges"></path><path fill="#000000" d="M0 0h7v1H0zM12 0h2v1H12zM16 0h3v1H16zM21 0h1v1H21zM23 0h1v1H23zM26,0 h7v1H26zM0 1h1v1H0zM6 1h1v1H6zM9 1h1v1H9zM12 1h2v1H12zM15 1h1v1H15zM17 1h1v1H17zM19 1h2v1H19zM22 1h1v1H22zM26 1h1v1H26zM32,1 h1v1H32zM0 2h1v1H0zM2 2h3v1H2zM6 2h1v1H6zM8 2h1v1H8zM11 2h2v1H11zM14 2h2v1H14zM20 2h2v1H20zM24 2h1v1H24zM26 2h1v1H26zM28 2h3v1H28zM32,2 h1v1H32zM0 3h1v1H0zM2 3h3v1H2zM6 3h1v1H6zM10 3h4v1H10zM15 3h1v1H15zM17 3h2v1H17zM20 3h1v1H20zM22 3h3v1H22zM26 3h1v1H26zM28 3h3v1H28zM32,3 h1v1H32zM0 4h1v1H0zM2 4h3v1H2zM6 4h1v1H6zM8 4h2v1H8zM13 4h2v1H13zM16 4h1v1H16zM18 4h7v1H18zM26 4h1v1H26zM28 4h3v1H28zM32,4 h1v1H32zM0 5h1v1H0zM6 5h1v1H6zM8 5h1v1H8zM10 5h1v1H10zM12 5h1v1H12zM14 5h3v1H14zM18 5h2v1H18zM21 5h2v1H21zM24 5h1v1H24zM26 5h1v1H26zM32,5 h1v1H32zM0 6h7v1H0zM8 6h1v1H8zM10 6h1v1H10zM12 6h1v1H12zM14 6h1v1H14zM16 6h1v1H16zM18 6h1v1H18zM20 6h1v1H20zM22 6h1v1H22zM24 6h1v1H24zM26,6 h7v1H26zM12 7h2v1H12zM17 7h2v1H17zM21 7h2v1H21zM1 8h1v1H1zM4 8h1v1H4zM6 8h1v1H6zM8 8h3v1H8zM12 8h6v1H12zM19 8h1v1H19zM21 8h2v1H21zM25 8h1v1H25zM27 8h2v1H27zM30 8h1v1H30zM0 9h2v1H0zM4 9h2v1H4zM8 9h2v1H8zM12 9h2v1H12zM18 9h1v1H18zM23 9h3v1H23zM29 9h3v1H29zM0 10h1v1H0zM2 10h2v1H2zM5 10h3v1H5zM9 10h4v1H9zM15 10h1v1H15zM17 10h1v1H17zM20 10h4v1H20zM29 10h1v1H29zM31 10h1v1H31zM3 11h2v1H3zM9 11h1v1H9zM11 11h2v1H11zM14 11h1v1H14zM16 11h6v1H16zM23 11h3v1H23zM31 11h1v1H31zM0 12h3v1H0zM6 12h1v1H6zM26 12h1v1H26zM28 12h2v1H28zM0 13h2v1H0zM3 13h2v1H3zM8 13h2v1H8zM23 13h1v1H23zM25 13h1v1H25zM27 13h1v1H27zM29 13h2v1H29zM2 14h1v1H2zM4 14h1v1H4zM6 14h4v1H6zM11 14h1v1H11zM23 14h5v1H23zM29 14h3v1H29zM2 15h3v1H2zM10 15h1v1H10zM21 15h1v1H21zM23 15h1v1H23zM25 15h4v1H25zM2 16h5v1H2zM8 16h2v1H8zM11 16h1v1H11zM21 16h1v1H21zM26 16h1v1H26zM28 16h1v1H28zM31 16h1v1H31zM7 17h1v1H7zM9 17h3v1H9zM21 17h1v1H21zM23 17h3v1H23zM29 17h3v1H29zM0 18h5v1H0zM6 18h2v1H6zM9 18h3v1H9zM23 18h1v1H23zM27 18h1v1H27zM29 18h1v1H29zM2 19h4v1H2zM8 19h1v1H8zM10 19h2v1H10zM22 19h1v1H22zM24 19h4v1H24zM31,19 h2v1H31zM0 20h1v1H0zM2 20h1v1H2zM6 20h3v1H6zM10 20h1v1H10zM22 20h2v1H22zM26 20h1v1H26zM28 20h2v1H28zM31 20h1v1H31zM0 21h1v1H0zM2 21h2v1H2zM13 21h4v1H13zM18 21h4v1H18zM23 21h1v1H23zM25 21h1v1H25zM27 21h1v1H27zM29 21h3v1H29zM3 22h1v1H3zM6 22h1v1H6zM8 22h3v1H8zM12 22h2v1H12zM16 22h1v1H16zM20 22h1v1H20zM23 22h3v1H23zM27 22h2v1H27zM31 22h1v1H31zM3 23h3v1H3zM7 23h1v1H7zM10 23h3v1H10zM15 23h3v1H15zM21 23h2v1H21zM24 23h3v1H24zM28 23h1v1H28zM32,23 h1v1H32zM0 24h9v1H0zM10 24h2v1H10zM14 24h1v1H14zM16 24h13v1H16zM32,24 h1v1H32zM8 25h2v1H8zM11 25h2v1H11zM16 25h2v1H16zM24 25h1v1H24zM28 25h1v1H28zM30 25h2v1H30zM0 26h7v1H0zM10 26h1v1H10zM13 26h3v1H13zM20 26h3v1H20zM24 26h1v1H24zM26 26h1v1H26zM28 26h2v1H28zM31 26h1v1H31zM0 27h1v1H0zM6 27h1v1H6zM9 27h1v1H9zM13 27h1v1H13zM15 27h7v1H15zM23 27h2v1H23zM28 27h1v1H28zM0 28h1v1H0zM2 28h3v1H2zM6 28h1v1H6zM8 28h3v1H8zM12 28h1v1H12zM14 28h2v1H14zM20 28h1v1H20zM24 28h6v1H24zM0 29h1v1H0zM2 29h3v1H2zM6 29h1v1H6zM10 29h3v1H10zM16 29h1v1H16zM18 29h2v1H18zM22 29h2v1H22zM26 29h6v1H26zM0 30h1v1H0zM2 30h3v1H2zM6 30h1v1H6zM9 30h1v1H9zM11 30h6v1H11zM18 30h2v1H18zM22 30h1v1H22zM24 30h1v1H24zM26 30h3v1H26zM0 31h1v1H0zM6 31h1v1H6zM8 31h3v1H8zM15 31h3v1H15zM19 31h3v1H19zM24 31h1v1H24zM26 31h1v1H26zM0 32h7v1H0zM10 32h2v1H10zM13 32h1v1H13zM17 32h1v1H17zM20 32h3v1H20zM24 32h1v1H24zM32,32 h1v1H32z" shapeRendering="crispEdges"></path><image href="/img/forkit-icon.png" height="7" width="7" x="13" y="13" ></image></svg>
       </div>
     </div>
   </div>
   <p class="text-center text-3xl font-semibold">nuqs.47ng.com</p>
-  <p class="text-center text-3xl font-semibold">Feedback</p>
+  <p class="text-center text-3xl font-semibold">OpenFeedback</p>
 </div>
-
